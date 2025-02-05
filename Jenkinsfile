@@ -59,7 +59,7 @@ pipeline {
             echo 'Deployment successful'
         }
         failure {
-            sh 'docker rm -f virat'
+            sh 'docker rm -f  virat'
         }
         always{
             echo 'Deployed'
